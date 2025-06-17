@@ -13,10 +13,11 @@ jobs:
     - name: Azure login
       uses: azure/login@v1
       with:
-      client-id: 32633cb3-2331-4b80-8ac1-1a88b013be7d
-      tenant-id: fdd066e1-ee37-49bc-b08f-d0e152119b04
-      subscription-id: f87b35a1-a3c1-44ea-8d37-e3a3e23aea64
-      enable-AZPSSession: true
+        client-id: 32633cb3-2331-4b80-8ac1-1a88b013be7d
+        tenant-id: fdd066e1-ee37-49bc-b08f-d0e152119b04
+        subscription-id: f87b35a1-a3c1-44ea-8d37-e3a3e23aea64
+        enable-AZPSSession: true
+      
   - name: Download flag
     run: |
       az storage blob download \
