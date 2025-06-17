@@ -19,7 +19,8 @@ jobs:
       subscription-id: f87b35a1-a3c1-44ea-8d37-e3a3e23aea64
       enable-AZPSSession: true
 
-  - name Download flag
+	 
+  - name: Download flag
     run: |
       az storage blob download \
         --account-name iamazurelab327ad8a0 \
